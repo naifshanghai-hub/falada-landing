@@ -11,7 +11,7 @@ function StoreButton({
   href: string;
 }) {
   const base =
-    "inline-flex items-center gap-3 rounded-2xl px-5 py-3 transition active:scale-[0.99] focus:outline-none focus:ring-2 focus:ring-purple-300";
+    "inline-flex w-full sm:w-[240px] h-[56px] items-center justify-between gap-3 rounded-2xl px-5 py-3 transition active:scale-[0.99] focus:outline-none focus:ring-2 focus:ring-purple-300";
   const style =
     variant === "primary"
       ? "bg-purple-600 text-white hover:bg-purple-700 shadow-sm"
