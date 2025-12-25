@@ -125,12 +125,10 @@ export default function Page() {
       {/* Top bar */}
       <header className="sticky top-0 z-40 backdrop-blur bg-white/70 border-b border-zinc-100">
         <div className="mx-auto max-w-6xl px-5 sm:px-8 py-4 flex items-center justify-between">
-          <a href="/" className="flex items-center gap-2">
-            <span className="inline-flex h-9 w-9 items-center justify-center rounded-2xl bg-purple-600 text-white font-bold">
-              ف
-            </span>
-            <span className="font-extrabold tracking-tight">فلذة</span>
-          </a>
+        <a href="/" className="flex items-center gap-3">
+        <img src="/logo.png" alt="فلذة" className="h-10 w-auto" />
+        <span className="font-extrabold tracking-tight">فلذة</span>
+            </a>
 
           <nav className="hidden md:flex items-center gap-6 text-sm text-zinc-600">
             <a href="#features" className="hover:text-zinc-900">
